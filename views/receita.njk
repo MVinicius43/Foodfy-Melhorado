@@ -1,10 +1,8 @@
-{% extends "layout.njk" %}
+{% extends 'layout.njk' %}
 
 {% block moreAccess %}
 
     <section class="moreAccessCard-classes">
-
-        {% for item in items %}
 
         <div class="card">
             <div class="card-image-container" id="burger">
@@ -18,8 +16,6 @@
             </div>
         </div>
 
-        {% endfor %}
-
-    <script src="/scripts.js"></script>
+    </div>
 
 {% endblock moreAccess %}
